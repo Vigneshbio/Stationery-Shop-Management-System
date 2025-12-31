@@ -1,0 +1,66 @@
+ body {
+      background-image: url("../images/logo.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: cursive;
+    }
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 90%;
+      max-width: 425px;
+      padding: 20px;
+      border-radius: 20px;
+      background: radial-gradient(ellipse, white, rgb(237, 237, 24));
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h3 {
+      margin: 10px 0 5px 0;
+    }
+
+    input {
+      height: 30px;
+      width: 100%;
+      border-radius: 20px;
+      padding: 0 10px;
+      box-sizing: border-box;
+    }
+
+    .button-container {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    button {
+      font-family: cursive;
+      height: 40px;
+      width: 80px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    
+textarea {
+    height: 60px;           /* adjust height as needed */
+    width: 100%;            /* full width like input */
+    border-radius: 20px;    /* match input border radius */
+    padding: 0 10px;        /* same padding as inputs */
+    box-sizing: border-box; /* keep padding inside box */
+    font-family: cursive;   /* match font */
+    margin: 10px 0 20px 0;  /* spacing similar to inputs */
+    resize: none;           /* prevent resizing */
+}
